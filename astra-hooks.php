@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Astra Hooks
- * Plugin URI: http://www.ultimatebeaver.com/
+ * Plugin URI: https://wpastra.com/
  * Description: Customizer Hooks for Theme.
  * Version: 1.0.0
  * Author: Brainstorm Force
@@ -46,7 +46,7 @@ if ( ! function_exists( 'astra_hooks_init' ) ) {
 			/**
 			 * Astra Hooks
 			 */
-			require_once ASTRA_HOOKS_DIR . 'class-astra-hooks.php';
+			require_once ASTRA_HOOKS_DIR . 'classes/class-astra-hooks.php';
 		}
 	}
 }
