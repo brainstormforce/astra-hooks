@@ -1,0 +1,30 @@
+{
+  "name": "astra-hooks",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.brainstormforce.com:astra/astra-hooks.git"
+  },
+  "author": "brainstormforce",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-compress": "^1.3.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-uglify": "^1.0.2",
+    "grunt-postcss": "^0.8.0",
+    "grunt-rtlcss": "^2.0.1",
+    "grunt-sass": "^1.2.1",
+    "grunt-wp-i18n": "^0.5.4",
+    "load-grunt-tasks": "^3.5.2",
+    "postcss-flexibility": "^1.0.3"
+  }
+}

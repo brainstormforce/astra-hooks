@@ -1,0 +1,145 @@
+# Copyright (C) 2017 Brainstorm Force
+# This file is distributed under the same license as the Astra Hooks package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Astra Hooks 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/astra-hooks\n"
+"POT-Creation-Date: 2017-07-26 06:05:15+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: classes/customizer-panels-and-sections.php:11
+msgid "Hooks"
+msgstr ""
+
+#: classes/customizer-panels-and-sections.php:17
+msgid "Body"
+msgstr ""
+
+#: classes/customizer-panels-and-sections.php:24
+msgid "Header"
+msgstr ""
+
+#: classes/customizer-panels-and-sections.php:31
+msgid "Content"
+msgstr ""
+
+#: classes/customizer-panels-and-sections.php:38
+msgid "Comment"
+msgstr ""
+
+#: classes/customizer-panels-and-sections.php:45
+msgid "Sidebar"
+msgstr ""
+
+#: classes/customizer-panels-and-sections.php:52
+msgid "Footer"
+msgstr ""
+
+#: classes/sections/section-hooks.php:32
+msgid "wp_head"
+msgstr ""
+
+#: classes/sections/section-hooks.php:49
+msgid "Before Header (astra_header_before)"
+msgstr ""
+
+#: classes/sections/section-hooks.php:66
+msgid "After Header (astra_header_after)"
+msgstr ""
+
+#: classes/sections/section-hooks.php:86
+msgid "Before Container (astra_content_before)"
+msgstr ""
+
+#: classes/sections/section-hooks.php:103
+msgid "Before Main Content (astra_primary_content_top)"
+msgstr ""
+
+#: classes/sections/section-hooks.php:120
+msgid "Before Content (astra_entry_top)"
+msgstr ""
+
+#: classes/sections/section-hooks.php:137
+msgid "Before Entry Content (astra_entry_content_before)"
+msgstr ""
+
+#: classes/sections/section-hooks.php:154
+msgid "After Entry Content (astra_entry_content_after)"
+msgstr ""
+
+#: classes/sections/section-hooks.php:171
+msgid "After Content (astra_entry_bottom)"
+msgstr ""
+
+#: classes/sections/section-hooks.php:188
+msgid "After Main Content (astra_primary_content_bottom)"
+msgstr ""
+
+#: classes/sections/section-hooks.php:205
+msgid "After Container (astra_content_after)"
+msgstr ""
+
+#: classes/sections/section-hooks.php:225
+msgid "Before Comment (astra_comments_before)"
+msgstr ""
+
+#: classes/sections/section-hooks.php:242
+msgid "After Comment (astra_comments_after)"
+msgstr ""
+
+#: classes/sections/section-hooks.php:262
+msgid "Before Sidebar (astra_sidebars_before)"
+msgstr ""
+
+#: classes/sections/section-hooks.php:279
+msgid "After Sidebar (astra_sidebars_after)"
+msgstr ""
+
+#: classes/sections/section-hooks.php:299
+msgid "Before Footer (astra_footer_before)"
+msgstr ""
+
+#: classes/sections/section-hooks.php:316
+msgid "After Footer (astra_footer_after)"
+msgstr ""
+
+#: classes/sections/section-hooks.php:333
+msgid "wp_footer"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Astra Hooks"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.ultimatebeaver.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Customizer Hooks for Theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Brainstorm Force"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.brainstormforce.com"
+msgstr ""
