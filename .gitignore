@@ -11,7 +11,7 @@ node_modules/
 *.map
 
 # Skip package file from versoning
-astra-addon.zip
+astra-hooks.zip
 
 # ignore git inside subproject
 admin/bsf-core/.git

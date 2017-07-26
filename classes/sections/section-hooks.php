@@ -29,7 +29,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		ASTRA_THEME_SETTINGS . '[hook-wp-head]', array(
 			'type'        => 'textarea',
 			'section'     => 'section-hooks-header',
-			'label'       => __( 'wp_head', 'astra-hooks', 'astra-pro' ),
+			'label'       => __( 'wp_head', 'astra-hooks' ),
 		)
 	);
 
@@ -46,7 +46,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		ASTRA_THEME_SETTINGS . '[hook-header-before]', array(
 			'type'        => 'textarea',
 			'section'     => 'section-hooks-header',
-			'label'       => __( 'Before Header (astra_header_before)', 'astra-hooks', 'astra-pro' ),
+			'label'       => __( 'Before Header (astra_header_before)', 'astra-hooks' ),
 		)
 	);
 
@@ -63,7 +63,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		ASTRA_THEME_SETTINGS . '[hook-header-after]', array(
 			'type'        => 'textarea',
 			'section'     => 'section-hooks-header',
-			'label'       => __( 'After Header (astra_header_after)', 'astra-hooks', 'astra-pro' ),
+			'label'       => __( 'After Header (astra_header_after)', 'astra-hooks' ),
 		)
 	);
 
@@ -83,7 +83,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		ASTRA_THEME_SETTINGS . '[hook-before-container]', array(
 			'type'        => 'textarea',
 			'section'     => 'section-hooks-content',
-			'label'       => __( 'Before Container (astra_content_before)', 'astra-hooks', 'astra-pro' ),
+			'label'       => __( 'Before Container (astra_content_before)', 'astra-hooks' ),
 		)
 	);
 
@@ -100,7 +100,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		ASTRA_THEME_SETTINGS . '[hook-before-main-content]', array(
 			'type'        => 'textarea',
 			'section'     => 'section-hooks-content',
-			'label'       => __( 'Before Main Content (astra_primary_content_top)', 'astra-hooks', 'astra-pro' ),
+			'label'       => __( 'Before Main Content (astra_primary_content_top)', 'astra-hooks' ),
 		)
 	);
 
@@ -117,7 +117,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		ASTRA_THEME_SETTINGS . '[hook-entry-top]', array(
 			'type'        => 'textarea',
 			'section'     => 'section-hooks-content',
-			'label'       => __( 'Before Content (astra_entry_top)', 'astra-hooks', 'astra-pro' ),
+			'label'       => __( 'Before Content (astra_entry_top)', 'astra-hooks' ),
 		)
 	);
 
@@ -134,7 +134,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		ASTRA_THEME_SETTINGS . '[hook-entry-content-before]', array(
 			'type'        => 'textarea',
 			'section'     => 'section-hooks-content',
-			'label'       => __( 'Before Entry Content (astra_entry_content_before)', 'astra-hooks', 'astra-pro' ),
+			'label'       => __( 'Before Entry Content (astra_entry_content_before)', 'astra-hooks' ),
 		)
 	);
 
@@ -151,7 +151,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		ASTRA_THEME_SETTINGS . '[hook-entry-content-after]', array(
 			'type'        => 'textarea',
 			'section'     => 'section-hooks-content',
-			'label'       => __( 'After Entry Content (astra_entry_content_after)', 'astra-hooks', 'astra-pro' ),
+			'label'       => __( 'After Entry Content (astra_entry_content_after)', 'astra-hooks' ),
 		)
 	);
 
@@ -168,7 +168,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		ASTRA_THEME_SETTINGS . '[hook-entry-bottom]', array(
 			'type'        => 'textarea',
 			'section'     => 'section-hooks-content',
-			'label'       => __( 'After Content (astra_entry_bottom)', 'astra-hooks', 'astra-pro' ),
+			'label'       => __( 'After Content (astra_entry_bottom)', 'astra-hooks' ),
 		)
 	);
 
@@ -185,7 +185,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		ASTRA_THEME_SETTINGS . '[hook-after-main-content]', array(
 			'type'        => 'textarea',
 			'section'     => 'section-hooks-content',
-			'label'       => __( 'After Main Content (astra_primary_content_bottom)', 'astra-hooks', 'astra-pro' ),
+			'label'       => __( 'After Main Content (astra_primary_content_bottom)', 'astra-hooks' ),
 		)
 	);
 
@@ -202,7 +202,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		ASTRA_THEME_SETTINGS . '[hook-after-container]', array(
 			'type'        => 'textarea',
 			'section'     => 'section-hooks-content',
-			'label'       => __( 'After Container (astra_content_after)', 'astra-hooks', 'astra-pro' ),
+			'label'       => __( 'After Container (astra_content_after)', 'astra-hooks' ),
 		)
 	);
 
@@ -222,7 +222,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		ASTRA_THEME_SETTINGS . '[hook-comments-before]', array(
 			'type'        => 'textarea',
 			'section'     => 'section-hooks-comment',
-			'label'       => __( 'Before Comment (astra_comments_before)', 'astra-hooks', 'astra-pro' ),
+			'label'       => __( 'Before Comment (astra_comments_before)', 'astra-hooks' ),
 		)
 	);
 
@@ -239,7 +239,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		ASTRA_THEME_SETTINGS . '[hook-comments-after]', array(
 			'type'        => 'textarea',
 			'section'     => 'section-hooks-comment',
-			'label'       => __( 'After Comment (astra_comments_after)', 'astra-hooks', 'astra-pro' ),
+			'label'       => __( 'After Comment (astra_comments_after)', 'astra-hooks' ),
 		)
 	);
 
@@ -259,7 +259,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		ASTRA_THEME_SETTINGS . '[hook-sidebars-before]', array(
 			'type'        => 'textarea',
 			'section'     => 'section-hooks-sidebar',
-			'label'       => __( 'Before Sidebar (astra_sidebars_before)', 'astra-hooks', 'astra-pro' ),
+			'label'       => __( 'Before Sidebar (astra_sidebars_before)', 'astra-hooks' ),
 		)
 	);
 
@@ -276,7 +276,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		ASTRA_THEME_SETTINGS . '[hook-sidebars-after]', array(
 			'type'        => 'textarea',
 			'section'     => 'section-hooks-sidebar',
-			'label'       => __( 'After Sidebar (astra_sidebars_after)', 'astra-hooks', 'astra-pro' ),
+			'label'       => __( 'After Sidebar (astra_sidebars_after)', 'astra-hooks' ),
 		)
 	);
 
@@ -296,7 +296,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		ASTRA_THEME_SETTINGS . '[hook-footer-before]', array(
 			'type'        => 'textarea',
 			'section'     => 'section-hooks-footer',
-			'label'       => __( 'Before Footer (astra_footer_before)', 'astra-hooks', 'astra-pro' ),
+			'label'       => __( 'Before Footer (astra_footer_before)', 'astra-hooks' ),
 		)
 	);
 
@@ -313,7 +313,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		ASTRA_THEME_SETTINGS . '[hook-footer-after]', array(
 			'type'        => 'textarea',
 			'section'     => 'section-hooks-footer',
-			'label'       => __( 'After Footer (astra_footer_after)', 'astra-hooks', 'astra-pro' ),
+			'label'       => __( 'After Footer (astra_footer_after)', 'astra-hooks' ),
 		)
 	);
 
@@ -330,6 +330,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 		ASTRA_THEME_SETTINGS . '[hook-wp-footer]', array(
 			'type'        => 'textarea',
 			'section'     => 'section-hooks-footer',
-			'label'       => __( 'wp_footer', 'astra-hooks', 'astra-pro' ),
+			'label'       => __( 'wp_footer', 'astra-hooks' ),
 		)
 	);
