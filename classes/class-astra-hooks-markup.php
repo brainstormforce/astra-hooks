@@ -35,33 +35,34 @@ if ( ! class_exists( 'Astra_Hooks_Markup' ) ) {
 		 *  Constructor
 		 */
 		public function __construct() {
+
 			// Header.
-			add_action( 'wp_head',                  array( $this, 'hook_wp_head' ) );
-			add_action( 'astra_header_before',        array( $this, 'hook_header_before' ) );
-			add_action( 'astra_header_after',         array( $this, 'hook_header_after' ) );
+			add_action( 'wp_head',                      array( $this, 'hook_wp_head' ) );
+			add_action( 'astra_header_before',          array( $this, 'hook_header_before' ) );
+			add_action( 'astra_header_after',           array( $this, 'hook_header_after' ) );
 
 			// Sidebar.
-			add_action( 'astra_sidebars_before',      array( $this, 'hook_sidebars_before' ) );
-			add_action( 'astra_sidebars_after',       array( $this, 'hook_sidebars_after' ) );
+			add_action( 'astra_sidebars_before',        array( $this, 'hook_sidebars_before' ) );
+			add_action( 'astra_sidebars_after',         array( $this, 'hook_sidebars_after' ) );
 
 			// Footer.
-			add_action( 'astra_footer_before',        array( $this, 'hook_footer_before' ) );
-			add_action( 'astra_footer_after',         array( $this, 'hook_footer_after' ) );
-			add_action( 'wp_footer',                  array( $this, 'hook_wp_footer' ) );
+			add_action( 'astra_footer_before',          array( $this, 'hook_footer_before' ) );
+			add_action( 'astra_footer_after',           array( $this, 'hook_footer_after' ) );
+			add_action( 'wp_footer',                    array( $this, 'hook_wp_footer' ) );
 
 			// Content.
-			add_action( 'astra_content_before',   array( $this, 'hook_container_before' ) );
-			add_action( 'astra_primary_content_top',   array( $this, 'hook_before_main_content' ) );
-			add_action( 'astra_entry_top',            array( $this, 'hook_entry_top' ) );
-			add_action( 'astra_entry_content_before', array( $this, 'hook_entry_content_before' ) );
-			add_action( 'astra_entry_content_after', array( $this, 'hook_entry_content_after' ) );
-			add_action( 'astra_entry_bottom',         array( $this, 'hook_entry_bottom' ) );
-			add_action( 'astra_primary_content_bottom',array( $this, 'hook_after_main_content' ) );
-			add_action( 'astra_content_after',   array( $this, 'hook_container_after' ) );
+			add_action( 'astra_content_before',         array( $this, 'hook_container_before' ) );
+			add_action( 'astra_primary_content_top',    array( $this, 'hook_before_main_content' ) );
+			add_action( 'astra_entry_top',              array( $this, 'hook_entry_top' ) );
+			add_action( 'astra_entry_content_before',   array( $this, 'hook_entry_content_before' ) );
+			add_action( 'astra_entry_content_after',    array( $this, 'hook_entry_content_after' ) );
+			add_action( 'astra_entry_bottom',           array( $this, 'hook_entry_bottom' ) );
+			add_action( 'astra_primary_content_bottom', array( $this, 'hook_after_main_content' ) );
+			add_action( 'astra_content_after',          array( $this, 'hook_container_after' ) );
 
 			// Comment.
-			add_action( 'astra_comments_before',      array( $this, 'hook_comments_before' ) );
-			add_action( 'astra_comments_after',       array( $this, 'hook_comments_after' ) );
+			add_action( 'astra_comments_before',        array( $this, 'hook_comments_before' ) );
+			add_action( 'astra_comments_after',         array( $this, 'hook_comments_after' ) );
 
 		}
 

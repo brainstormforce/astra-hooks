@@ -49,25 +49,30 @@ if ( ! class_exists( 'Astra_Hooks_Loader' ) ) {
 		 * @return array
 		 */
 		function theme_defaults( $defaults ) {
+
 			// Header.
 			$defaults['hook-wp-head']              = '';
 			$defaults['hook-header-before']        = '';
 			$defaults['hook-header-after']         = '';
+
 			// Content.
 			$defaults['hook-before-container']     = '';
 			$defaults['hook-before-main-content']  = '';
 			$defaults['hook-entry-top']            = '';
 			$defaults['hook-entry-bottom']         = '';
 			$defaults['hook-entry-content-before'] = '';
-			$defaults['hook-entry-content-after'] = '';
+			$defaults['hook-entry-content-after']  = '';
 			$defaults['hook-after-main-content']   = '';
 			$defaults['hook-after-container']      = '';
+
 			// Comment.
 			$defaults['hook-comments-before']      = '';
 			$defaults['hook-comments-after']       = '';
+
 			// Sidebar.
 			$defaults['hook-sidebars-before']      = '';
 			$defaults['hook-sidebars-after']       = '';
+
 			// Footer.
 			$defaults['hook-footer-before']        = '';
 			$defaults['hook-footer-after']         = '';
