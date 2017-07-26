@@ -1,6 +1,6 @@
 <?php
 /**
- * Hooks - Customizer.
+ * Astra Hooks - Customizer.
  *
  * @package Astra Hooks
  * @since 1.0.0

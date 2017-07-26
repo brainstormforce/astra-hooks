@@ -1,6 +1,6 @@
 <?php
 /**
- * Hooks Markup
+ * Astra Hooks - Markup
  *
  * @package Astra Hooks
  */

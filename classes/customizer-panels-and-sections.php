@@ -1,6 +1,6 @@
 <?php
 /**
- * Scroll To Top - Panels & Sections
+ * Astra Hooks - Panels & Sections
  *
  * @package Astra Hooks
  */

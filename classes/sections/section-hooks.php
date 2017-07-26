@@ -1,6 +1,6 @@
 <?php
 /**
- * Hooks Options for our theme.
+ * Astra Hooks - Options for our theme.
  *
  * @package     Astra Hooks
  * @author      Brainstorm Force

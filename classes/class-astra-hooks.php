@@ -1,6 +1,6 @@
 <?php
 /**
- * Scroll To Top Extension
+ * Astra Hooks - Init
  *
  * @package Astra Hooks
  */
@@ -8,7 +8,7 @@
 if ( ! class_exists( 'Astra_Hooks' ) ) {
 
 	/**
-	 * Scroll To Top Initial Setup
+	 * Astra Hooks Initial Setup
 	 *
 	 * @since 1.0.0
 	 */
