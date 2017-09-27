@@ -2,7 +2,7 @@
 Contributors: brainstormforce, dineshc
 Tags: astra theme, customizer hooks, astra hooks
 Tested up to: 4.8
-Stable tag: trunk
+Stable tag: 1.0.1
 Requires at least: 4.4
 
 Use astra theme hooks from Customizer.
@@ -11,6 +11,9 @@ Use astra theme hooks from Customizer.
 The Astra Theme Plugin allows you to use action hooks of Astra theme from Customizer.
 
 == Changelog ==
+
+= 1.0.1 =
+* White Label support added from the [Astra Pro](https://wpastra.com/pro/) plugin.
 
 = 1.0.0 =
 * Initial release.
