@@ -37,6 +37,8 @@ if ( ! class_exists( 'Astra_Hooks_Loader' ) ) {
 		 */
 		public function __construct() {
 
+			$this->includes();
+
 			add_filter( 'astra_theme_defaults',    array( $this, 'theme_defaults' ) );
 			add_action( 'customize_register',    array( $this, 'customize_register' ) );
 
@@ -104,6 +106,16 @@ if ( ! class_exists( 'Astra_Hooks_Loader' ) ) {
 			 * Sections
 			 */
 			require_once ASTRA_HOOKS_DIR . 'classes/sections/section-hooks.php';
+		}
+
+		/**
+		 * Load all the required files.
+		 *
+		 * @since  1.0.1
+		 */
+		private function includes() {
+
+			require_once ASTRA_HOOKS_DIR . 'classes/class-astra-hooks-white-label.php';
 		}
 
 	}
