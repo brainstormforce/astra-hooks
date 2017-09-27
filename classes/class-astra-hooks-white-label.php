@@ -71,7 +71,8 @@ if ( ! class_exists( 'Astra_Hooks_White_Label' ) ) :
 		 */
 		function plugins_page( $plugins ) {
 
-			if ( ! is_callable( 'Astra_Ext_White_Label_Markup::get_white_label' ) ) {
+			$get_white_label = 'Astra_Ext_White_Label_Markup::get_white_label';
+			if ( ! is_callable( $get_white_label ) ) {
 				return $plugins;
 			}
 
@@ -119,14 +120,16 @@ if ( ! class_exists( 'Astra_Hooks_White_Label' ) ) :
 		 */
 		public function plugin_links( $plugin_meta, $plugin_file, $plugin_data ) {
 
-			if ( ASTRA_HOOKS_BASE == $plugin_file ) {
-				// Set White Labels.
-				$name        = Astra_Ext_White_Label_Markup::get_white_label( 'astra-hooks', 'name' );
-				$description = Astra_Ext_White_Label_Markup::get_white_label( 'astra-hooks', 'description' );
+			if ( is_callable( 'Astra_Ext_White_Label_Markup::get_white_label' ) ) {
+				if ( ASTRA_HOOKS_BASE == $plugin_file ) {
+					// Set White Labels.
+					$name        = Astra_Ext_White_Label_Markup::get_white_label( 'astra-hooks', 'name' );
+					$description = Astra_Ext_White_Label_Markup::get_white_label( 'astra-hooks', 'description' );
 
-				if ( ! empty( $name ) ) {
-					// Remove Plugin URI if Agency White Label name is set.
-					unset( $plugin_meta[2] );
+					if ( ! empty( $name ) ) {
+						// Remove Plugin URI if Agency White Label name is set.
+						unset( $plugin_meta[2] );
+					}
 				}
 			}
 			return $plugin_meta;
