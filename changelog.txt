@@ -1,5 +1,0 @@
-v1.0.1
-# White Label support added from the [Astra Pro](https://wpastra.com/pro/) plugin.
-
-v1.0.0
-# Astra Hooks initialized.
