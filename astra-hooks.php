@@ -62,12 +62,11 @@ if ( ! function_exists( 'register_notices' ) ) :
 	* @since 1.4.0
 	*/
 	function register_notices() {
-		$image_path = ASTRA_HOOKS_URI . 'includes/assets/images/astra-logo.svg';
+		$image_path = ASTRA_HOOKS_URI . 'includes/assets/images/astra-hooks-icon.png';
 		Astra_Notices::add_notice(
 			array(
 				'id'                         => 'astra-hooks-theme-rating',
 				'type'                       => '',
-				/* translators: %1$s logo link, %2$s product rating link, %3$s dismissable notice transient time. */
 				'message'                    => sprintf(
 					'<div class="notice-image">
 						<img src="%1$s" class="custom-logo" alt="Astra" itemprop="logo"></div> 
