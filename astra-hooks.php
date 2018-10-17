@@ -49,6 +49,7 @@ if ( ! function_exists( 'astra_hooks_init' ) ) {
 			 * Astra Hooks
 			 */
 			require_once ASTRA_HOOKS_DIR . 'classes/class-astra-hooks.php';
+			require_once ASTRA_HOOKS_DIR . 'includes/lib/notices/class-astra-notices.php';
 		}
 	}
 }
@@ -65,11 +66,11 @@ if ( ! function_exists( 'register_notices' ) ) :
 		$image_path = ASTRA_HOOKS_URI . 'includes/assets/images/astra-hooks-icon.png';
 		Astra_Notices::add_notice(
 			array(
-				'id'                         => 'astra-hooks-theme-rating',
+				'id'                         => 'astra-hooks-rating',
 				'type'                       => '',
 				'message'                    => sprintf(
 					'<div class="notice-image">
-						<img src="%1$s" class="custom-logo" alt="Astra" itemprop="logo"></div> 
+						<img src="%1$s" class="custom-logo" alt="Astra Hooks" itemprop="logo"></div> 
 						<div class="notice-content">
 							<div class="notice-heading">
 								%2$s
@@ -92,7 +93,7 @@ if ( ! function_exists( 'register_notices' ) ) :
 					$image_path,
 					__( 'Hello! Seems like you have used Astra Hooks to build this website — Thanks a ton!', 'astra-hooks' ),
 					__( 'Could you please do us a BIG favor and give it a 5-star rating on WordPress? This would boost our motivation and help other users make a comfortable decision while choosing the Astra Hooks.', 'astra-hooks' ),
-					'https://wordpress.org/support/theme/astra/reviews/?filter=5#new-post',
+					'https://wordpress.org/support/plugin/astra-hooks/reviews/?filter=5#new-post',
 					__( 'Ok, you deserve it', 'astra-hooks' ),
 					MONTH_IN_SECONDS,
 					__( 'Nope, maybe later', 'astra-hooks' ),
