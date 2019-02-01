@@ -1,5 +1,5 @@
 # Astra Hooks #
-**Contributors:** brainstormforce, dineshc  
+**Contributors:** brainstormforce  
 **Tags:** astra theme, customizer hooks, astra hooks  
 **Tested up to:** 5.0  
 **Stable tag:** 1.0.1  
