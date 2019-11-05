@@ -39,8 +39,8 @@ if ( ! class_exists( 'Astra_Hooks_Loader' ) ) {
 
 			$this->includes();
 
-			add_filter( 'astra_theme_defaults',    array( $this, 'theme_defaults' ) );
-			add_action( 'customize_register',    array( $this, 'customize_register' ) );
+			add_filter( 'astra_theme_defaults', array( $this, 'theme_defaults' ) );
+			add_action( 'customize_register', array( $this, 'customize_register' ) );
 
 		}
 
@@ -53,9 +53,9 @@ if ( ! class_exists( 'Astra_Hooks_Loader' ) ) {
 		function theme_defaults( $defaults ) {
 
 			// Header.
-			$defaults['hook-wp-head']              = '';
-			$defaults['hook-header-before']        = '';
-			$defaults['hook-header-after']         = '';
+			$defaults['hook-wp-head']       = '';
+			$defaults['hook-header-before'] = '';
+			$defaults['hook-header-after']  = '';
 
 			// Content.
 			$defaults['hook-before-container']     = '';
@@ -68,17 +68,17 @@ if ( ! class_exists( 'Astra_Hooks_Loader' ) ) {
 			$defaults['hook-after-container']      = '';
 
 			// Comment.
-			$defaults['hook-comments-before']      = '';
-			$defaults['hook-comments-after']       = '';
+			$defaults['hook-comments-before'] = '';
+			$defaults['hook-comments-after']  = '';
 
 			// Sidebar.
-			$defaults['hook-sidebars-before']      = '';
-			$defaults['hook-sidebars-after']       = '';
+			$defaults['hook-sidebars-before'] = '';
+			$defaults['hook-sidebars-after']  = '';
 
 			// Footer.
-			$defaults['hook-footer-before']        = '';
-			$defaults['hook-footer-after']         = '';
-			$defaults['hook-wp-footer']            = '';
+			$defaults['hook-footer-before'] = '';
+			$defaults['hook-footer-after']  = '';
+			$defaults['hook-wp-footer']     = '';
 
 			return $defaults;
 		}

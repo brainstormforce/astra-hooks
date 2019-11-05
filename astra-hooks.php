@@ -58,10 +58,10 @@ add_action( 'after_setup_theme', 'astra_hooks_init' );
 if ( ! function_exists( 'register_notices' ) ) :
 
 	/**
-	* Ask Theme Rating
-	*
-	* @since 1.4.0
-	*/
+	 * Ask Theme Rating
+	 *
+	 * @since 1.4.0
+	 */
 	function register_notices() {
 		$image_path = ASTRA_HOOKS_URI . 'includes/assets/images/astra-hooks-icon.png';
 		Astra_Notices::add_notice(

@@ -12,11 +12,9 @@
 			<span class="screen-reader-text"><?php _e( 'Astra Hooks Branding', 'astra-hooks' ); ?></span>
 			<span class="toggle-indicator" aria-hidden="true"></span>
 		</button>
-		
 		<h2 class="hndle ui-sortable-handle">
 			<span><?php _e( 'Astra Hooks Branding', 'astra-hooks' ); ?></span>
 		</h2>
-		
 		<div class="inside">
 			<div class="form-wrap">
 				<div class="form-field">
