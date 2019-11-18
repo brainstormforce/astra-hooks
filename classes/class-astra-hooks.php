@@ -26,7 +26,7 @@ if ( ! class_exists( 'Astra_Hooks' ) ) {
 		 */
 		public static function get_instance() {
 			if ( ! isset( self::$instance ) ) {
-				self::$instance = new self;
+				self::$instance = new self();
 			}
 			return self::$instance;
 		}
@@ -44,4 +44,4 @@ if ( ! class_exists( 'Astra_Hooks' ) ) {
 	 *  Kicking this off by calling 'get_instance()' method
 	 */
 	Astra_Hooks::get_instance();
-}// End if().
+}

@@ -41,7 +41,7 @@ if ( ! class_exists( 'Astra_Hooks_White_Label' ) ) :
 		 */
 		public static function set_instance() {
 			if ( ! isset( self::$instance ) ) {
-				self::$instance = new self;
+				self::$instance = new self();
 			}
 			return self::$instance;
 		}
@@ -53,9 +53,9 @@ if ( ! class_exists( 'Astra_Hooks_White_Label' ) ) :
 		 */
 		public function __construct() {
 
-			add_filter( 'all_plugins'                               , array( $this, 'plugins_page' ) );
-			add_filter( 'astra_addon_branding_options'              , __CLASS__ . '::settings' );
-			add_action( 'astra_pro_white_label_add_form'            , __CLASS__ . '::add_white_lavel_form' );
+			add_filter( 'all_plugins', array( $this, 'plugins_page' ) );
+			add_filter( 'astra_addon_branding_options', __CLASS__ . '::settings' );
+			add_action( 'astra_pro_white_label_add_form', __CLASS__ . '::add_white_lavel_form' );
 
 			if ( is_admin() ) {
 				// Display the link with the plugin meta.
@@ -69,7 +69,7 @@ if ( ! class_exists( 'Astra_Hooks_White_Label' ) ) :
 		 * @param array $plugins Plugins Array.
 		 * @return array
 		 */
-		function plugins_page( $plugins ) {
+		public function plugins_page( $plugins ) {
 
 			$get_white_label = 'Astra_Ext_White_Label_Markup::get_white_label';
 			if ( ! is_callable( $get_white_label ) ) {
@@ -146,8 +146,8 @@ if ( ! class_exists( 'Astra_Hooks_White_Label' ) ) :
 		public static function settings( $settings = array() ) {
 
 			$settings['astra-hooks'] = array(
-				'name'          => '',
-				'description'   => '',
+				'name'        => '',
+				'description' => '',
 			);
 
 			return $settings;
