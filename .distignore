@@ -30,4 +30,5 @@ node_modules
 *.zip
 package-lock.json
 phpcs.ruleset.xml
-
+.github
+.wordpress-org
