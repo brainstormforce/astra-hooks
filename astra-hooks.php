@@ -3,7 +3,7 @@
  * Plugin Name: Astra Hooks
  * Plugin URI: https://wpastra.com/
  * Description: Customizer Hooks for Theme.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Brainstorm Force
  * Author URI: http://www.brainstormforce.com
  * Text Domain: astra-hooks
@@ -43,7 +43,7 @@ if ( ! function_exists( 'astra_hooks_init' ) ) {
 			define( 'ASTRA_HOOKS_BASE', plugin_basename( ASTRA_HOOKS_FILE ) );
 			define( 'ASTRA_HOOKS_DIR', plugin_dir_path( ASTRA_HOOKS_FILE ) );
 			define( 'ASTRA_HOOKS_URI', plugins_url( '/', ASTRA_HOOKS_FILE ) );
-			define( 'ASTRA_HOOKS_VER', '1.0.1' );
+			define( 'ASTRA_HOOKS_VER', '1.0.2' );
 
 			/**
 			 * Astra Hooks
