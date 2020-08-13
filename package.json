@@ -8,9 +8,9 @@
     "grunt-contrib-jshint": "^2.1.0",
     "grunt-wp-i18n": "~0.5.0",
     "grunt-wp-readme-to-markdown": "~1.0.0",
-    "underscore.string": ">=3.3.5",
     "js-yaml": ">=3.13.1",
     "lodash": ">=4.17.12",
-    "minimatch": ">=3.0.2"
+    "minimatch": ">=3.0.2",
+    "underscore.string": ">=3.3.5"
   }
 }
