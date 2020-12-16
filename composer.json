@@ -2,7 +2,7 @@
     "name": "brainstormforce/astra-hooks",
     "description": "Astra uses the WordPress Hooks API to insert actions throughout the theme. This plugin allows you to hook your custom Content, Shortcodes or Java Script code in the various hook locations.",
     "require-dev": {
-        "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
         "wp-coding-standards/wpcs": "dev-master",
         "phpcompatibility/phpcompatibility-wp": "*"
     },
