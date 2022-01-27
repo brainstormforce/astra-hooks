@@ -1,14 +1,14 @@
-# Copyright (C) 2022 Brainstorm Force
+# Copyright (C) 2017 Brainstorm Force
 # This file is distributed under the same license as the Astra Hooks package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Astra Hooks 1.0.2\n"
+"Project-Id-Version: Astra Hooks 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/astra-hooks\n"
-"POT-Creation-Date: 2022-01-25 12:59:57+00:00\n"
+"POT-Creation-Date: 2017-07-26 06:38:39+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"
@@ -24,112 +24,100 @@ msgstr ""
 "X-Poedit-Bookmarks: \n"
 "X-Textdomain-Support: yes\n"
 
-#: classes/customizer-panels-and-sections.php:12
+#: classes/customizer-panels-and-sections.php:11
 msgid "Hooks"
 msgstr ""
 
-#: classes/customizer-panels-and-sections.php:19
+#: classes/customizer-panels-and-sections.php:17
 msgid "Header"
 msgstr ""
 
-#: classes/customizer-panels-and-sections.php:27
+#: classes/customizer-panels-and-sections.php:24
 msgid "Content"
 msgstr ""
 
-#: classes/customizer-panels-and-sections.php:35
+#: classes/customizer-panels-and-sections.php:31
 msgid "Comment"
 msgstr ""
 
-#: classes/customizer-panels-and-sections.php:43
+#: classes/customizer-panels-and-sections.php:38
 msgid "Sidebar"
 msgstr ""
 
-#: classes/customizer-panels-and-sections.php:51
+#: classes/customizer-panels-and-sections.php:45
 msgid "Footer"
 msgstr ""
 
-#: classes/sections/section-hooks.php:34
+#: classes/sections/section-hooks.php:32
 msgid "wp_head"
 msgstr ""
 
-#: classes/sections/section-hooks.php:53
+#: classes/sections/section-hooks.php:49
 msgid "Before Header (astra_header_before)"
 msgstr ""
 
-#: classes/sections/section-hooks.php:72
+#: classes/sections/section-hooks.php:66
 msgid "After Header (astra_header_after)"
 msgstr ""
 
-#: classes/sections/section-hooks.php:94
+#: classes/sections/section-hooks.php:86
 msgid "Before Container (astra_content_before)"
 msgstr ""
 
-#: classes/sections/section-hooks.php:113
+#: classes/sections/section-hooks.php:103
 msgid "Before Main Content (astra_primary_content_top)"
 msgstr ""
 
-#: classes/sections/section-hooks.php:132
+#: classes/sections/section-hooks.php:120
 msgid "Before Content (astra_entry_top)"
 msgstr ""
 
-#: classes/sections/section-hooks.php:151
+#: classes/sections/section-hooks.php:137
 msgid "Before Entry Content (astra_entry_content_before)"
 msgstr ""
 
-#: classes/sections/section-hooks.php:170
+#: classes/sections/section-hooks.php:154
 msgid "After Entry Content (astra_entry_content_after)"
 msgstr ""
 
-#: classes/sections/section-hooks.php:189
+#: classes/sections/section-hooks.php:171
 msgid "After Content (astra_entry_bottom)"
 msgstr ""
 
-#: classes/sections/section-hooks.php:208
+#: classes/sections/section-hooks.php:188
 msgid "After Main Content (astra_primary_content_bottom)"
 msgstr ""
 
-#: classes/sections/section-hooks.php:227
+#: classes/sections/section-hooks.php:205
 msgid "After Container (astra_content_after)"
 msgstr ""
 
-#: classes/sections/section-hooks.php:249
+#: classes/sections/section-hooks.php:225
 msgid "Before Comment (astra_comments_before)"
 msgstr ""
 
-#: classes/sections/section-hooks.php:268
+#: classes/sections/section-hooks.php:242
 msgid "After Comment (astra_comments_after)"
 msgstr ""
 
-#: classes/sections/section-hooks.php:290
+#: classes/sections/section-hooks.php:262
 msgid "Before Sidebar (astra_sidebars_before)"
 msgstr ""
 
-#: classes/sections/section-hooks.php:309
+#: classes/sections/section-hooks.php:279
 msgid "After Sidebar (astra_sidebars_after)"
 msgstr ""
 
-#: classes/sections/section-hooks.php:331
+#: classes/sections/section-hooks.php:299
 msgid "Before Footer (astra_footer_before)"
 msgstr ""
 
-#: classes/sections/section-hooks.php:350
+#: classes/sections/section-hooks.php:316
 msgid "After Footer (astra_footer_after)"
 msgstr ""
 
-#: classes/sections/section-hooks.php:369
+#: classes/sections/section-hooks.php:333
 msgid "wp_footer"
-msgstr ""
-
-#: includes/white-label.php:12 includes/white-label.php:16
-msgid "Astra Hooks Branding"
-msgstr ""
-
-#: includes/white-label.php:21
-msgid "Plugin Name:"
-msgstr ""
-
-#: includes/white-label.php:26
-msgid "Plugin Description:"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
