@@ -2,7 +2,7 @@
 **Contributors:** brainstormforce  
 **Tags:** astra theme, customizer hooks, astra hooks  
 **Tested up to:** 6.5  
-**Stable tag:** 1.0.3  
+**Stable tag:** 1.0.2  
 **Requires at least:** 4.4  
 
 Add your content to Hooks in the Astra theme from the customizer.
