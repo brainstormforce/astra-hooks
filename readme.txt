@@ -1,8 +1,8 @@
 === Astra Hooks ===
 Contributors: brainstormforce
 Tags: astra theme, customizer hooks, astra hooks
-Tested up to: 6.4
-Stable tag: 1.0.2
+Tested up to: 6.5
+Stable tag: 1.0.3
 Requires at least: 4.4
 
 Add your content to Hooks in the Astra theme from the customizer.
@@ -19,6 +19,9 @@ To see all of the available hooks in Astra, visit this page.
 Need to add dynamic content with various conditions? Please consider the <a href="https://wpastra.com/?utm_source=wp-org&utm_medium=readme&utm_campaign=astra-hooks">Astra Pro Addon</a>. Custom Layouts module in Astra Pro Addon offers functionality so you can add dynamic content (PHP Code) easily.
 
 == Changelog ==
+
+= 1.0.3 =
+- Improvement: Compatibility with WordPress 6.5.
 
 = 1.0.2 =
 - Improvement: Hardened the security of plugin
