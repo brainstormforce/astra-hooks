@@ -20,9 +20,6 @@ Need to add dynamic content with various conditions? Please consider the <a href
 
 ## Changelog ##
 
-### 1.0.3 ###
-- Improvement: Compatibility with WordPress 6.5.
-
 ### 1.0.2 ###
 - Improvement: Hardened the security of plugin
 - Improvement: Compatibility with latest WordPress PHP_CodeSniffer rules
