@@ -1,7 +1,7 @@
 === Astra Hooks ===
 Contributors: brainstormforce
 Tags: astra theme, customizer hooks, astra hooks
-Tested up to: 6.5
+Tested up to: 6.6
 Stable tag: 1.0.2
 Requires at least: 4.4
 
