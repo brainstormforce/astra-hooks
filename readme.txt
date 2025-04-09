@@ -9,7 +9,7 @@ Add your content to Hooks in the Astra theme from the customizer.
 
 == Description ==
 
-Astra uses the WordPress Hooks API to insert actions throughout the theme. This plugin allows you to "hook" your custom Content, Shortcodes or Java Script code in the various hook locations.
+Astra uses the WordPress Hooks API to insert actions throughout the theme. This plugin allows you to hook your custom content, shortcodes, or JavaScript code into various hook locations.
 
 Once installed, you will see a new tab in the Customizer. See screenshots for more information.
 
