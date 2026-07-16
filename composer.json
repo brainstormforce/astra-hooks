@@ -6,6 +6,11 @@
         "wp-coding-standards/wpcs": "dev-master",
         "phpcompatibility/phpcompatibility-wp": "*"
     },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
     "scripts": {
         "format": "phpcbf --standard=phpcs.xml.dist --report-summary --report-source",
         "lint": "phpcs --standard=phpcs.xml.dist --report-summary --report-source"
